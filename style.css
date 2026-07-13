@@ -27,7 +27,7 @@ a:hover{
 .common-btn{
     background-color: #1D4ED8;
     color: white;
-    padding: 10px 24px;
+    padding: 10px 20px;
     font-size: 16px;
     font-weight: 600;
     border: none;
@@ -41,9 +41,9 @@ a:hover{
 .common-btn:hover{
     background-color: #243973;
 }
-.font-ash{
+/* .font-ash{
     color: #575757;
-}
+} */
 .hero-banner{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0) 100%), url('./assets/banner.jpg');
     width: 100%;
@@ -72,4 +72,49 @@ a:hover{
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 200px;
+}
+
+/* speakers area */
+.speakers-section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-title{
+    text-align: center;
+    font-size: 40px;
+    margin: 40px 0 30px 0;
+}
+.speakers-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.speakers-card{
+    background: #f9f9f9;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgb(235, 231, 227);
+}
+.speakers-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-content{
+    padding: 20px;
+}
+.card-content h3{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.card-content p{
+    font-size: 14px;
+    color: #575757;
+}
+.catagory{
+    font-size: 11px;
+    font-weight: 700;
+    color: #2563EB;
+    letter-spacing: 1px;
 }
