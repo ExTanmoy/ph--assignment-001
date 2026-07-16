@@ -305,3 +305,74 @@ footer{
 .footer-links a:hover{
     color: white;
 }
+
+/* AI section(Event Tracks) Design */
+.tracks-section{
+    padding: 80px 20px;
+}
+.tracks-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.tracks-header{
+    /* text-align: center;
+     */
+    margin-bottom: 50px;
+}
+.tracks-header span{
+    font-size: 12px;
+    font-weight: 700;
+    color: #2563EB;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    display: block;
+}
+.tracks-header h2{
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.tracks-header p{
+    font-size: 14px;
+    color: #575757;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.tracks-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.track-card{
+    border: 1px solid #eaeaea;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgb(235, 231, 227);
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.track-card h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.track-card p{
+    color: #575757;
+    font-size: 13px;
+    line-height: 2;
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+.track-card span{
+    font-size: 13px;
+    font-weight: 600;
+    color: #2563EB;
+    padding: 6px 14px;
+    background-color: #2563eb0f;
+    border-radius: 20px;
+    display: inline-block;
+    align-self: center;
+}
